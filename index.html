@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title> Contact TheHigherUps</title>
+    <link rel="stylesheet" href="/style.css" type="text/css">
+    <meta charset="utf-8">
+    <meta name="description" content="Contact TheHigherUps">
+    <meta name="author" content="TheHigherUps Classified">
+    <meta name="subject" content="Contact">
+    <meta name="url" content="https://contact.thehigherups.org">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+  <header>
+    <div class="inner">
+      <h1>Contact TheHigherUps</h1>
+    </div>
+    </header>
+    <div class="content">
+      <form action="/contact.php" method="POST" autocomplete="off">
+        <label for="email">Enter Email:</label><br>
+        <input type="email" name="email" id="email" placeholder="name@email.com" required><br>
+        <label for="name">Enter Name:</label><br>
+        <input type="text" name="name" id="name" min="2" placeholder="Enter Name" required><br>
+        <label for="content">Enter Your Message:</label><br>
+        <input type="text" name="content" id="content" placeholder="Enter Your Message For TheHigherUps" min="10" max="500" required><br>
+        <br>
+        <input type="submit" value="Send Message">
+      </form>
+    </div>
+  </body>
+</html>
